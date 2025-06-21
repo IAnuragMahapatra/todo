@@ -292,7 +292,7 @@ export default function Home() {
             <TaskLogo />
             <div>
               <h1 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-foreground tracking-tight">
-                DoneBoard
+                The To-Do List
               </h1>
               <motion.p 
                 initial={{ opacity: 0, y: 10 }}
