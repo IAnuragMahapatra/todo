@@ -1,0 +1,25 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    Simplified version of your TaskLogo.
+    Using placeholder colors. Replace with your actual primary/primary-foreground colors.
+    Example: primary might be #6366F1 (indigo-500), primary-foreground might be #FFFFFF (white)
+  -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" /> {/* Replace with your primary color */}
+      <stop offset="100%" style="stop-color:#4F46E5;stop-opacity:0.8" /> {/* Replace with your primary/80 color */}
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#grad1)"/> {/* Main rounded square background */}
+  
+  <!-- Inner design - simplified layered squares hint -->
+  <g opacity="0.8">
+    <rect x="12" y="12" width="18" height="18" rx="4" fill="rgba(255,255,255,0.3)"/> {/* primary-foreground/30 */}
+    <rect x="34" y="12" width="18" height="18" rx="4" fill="rgba(255,255,255,0.6)"/> {/* primary-foreground/60 */}
+    <rect x="12" y="34" width="18" height="18" rx="4" fill="rgba(255,255,255,0.9)"/> {/* primary-foreground/90 */}
+    <rect x="34" y="34" width="18" height="18" rx="4" fill="rgba(255,255,255,1)"/>   {/* primary-foreground */}
+  </g>
+  
+  <!-- Checkmark -->
+  <polyline points="44,22 28,38 20,30" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/> {/* Replace stroke with your primary-foreground color */}
+</svg>
