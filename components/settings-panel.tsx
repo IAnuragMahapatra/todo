@@ -392,10 +392,6 @@ export function SettingsPanel({ isOpen, onClose }: SettingsPanelProps) {
                       <span className="font-medium">{groups.length}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Theme:</span>
-                      <span className="font-medium capitalize">{theme}</span>
-                    </div>
-                    <div className="flex justify-between">
                       <span>Made by:</span>
                       <span className="font-medium">Anurag Mahapatra</span>
                     </div>

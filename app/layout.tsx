@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: 'A beautiful, minimalist task manager for focused productivity',
   icons: {
     icon: [
-      { url: '/task-icon.svg', type: 'image/svg+xml' }, // Your new SVG icon
+      { url: '/task-icon.svg', type: 'image/svg+xml' },
     ],
   },
 };

@@ -469,7 +469,7 @@ export default function Home() {
                     Ready to get started!
                   </h2>
                   <p className="text-lg sm:text-xl font-medium bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-                    Let's create your first task! 🚀
+                    Let&apos;s create your first task! 🚀
                   </p>
                   <p className="text-sm sm:text-base text-muted-foreground leading-relaxed px-4">
                     Start your productivity journey by adding your first task or creating a task group below.
